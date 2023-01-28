@@ -8,11 +8,49 @@ body{
 }
 .box{
     position: absolute;
-    width: 300px;
-    height: 100px;
+    width: 20rem;
+    padding: 7rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #171717;
     text-align: center;
+    border-radius: 2rem;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 1.4rem auto;
+    text-align: center;
+    border: .1rem solid #1338be;
+    padding: 1rem .7rem;
+    width: 13rem;
+    outline: none;
+    color: white;
+    border-radius: 2rem;
+}
+.box h1{
+    color: white;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 1.5rem auto;
+    border: .1rem solid white;
+    padding: 1rem 3rem;
+    outline: none;
+    color: white;
+    border-radius: 2rem;
+}
+.box input[type="submit"]:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: .1rem solid blue;
+
 }
